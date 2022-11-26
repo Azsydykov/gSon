@@ -13,7 +13,7 @@ public class OkHttpConnection {
 
     public String getJson() {
 
-        String url = "https://jsonplaceholder.typicode.com/posts";
+        String url = "http://Localhost:8080/api/v1/person/get";
 
         OkHttpClient client = new OkHttpClient();
         try {
